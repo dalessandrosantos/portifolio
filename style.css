@@ -103,6 +103,7 @@ section {
     gap: 2rem;
     align-items: center;
     padding: 1rem;
+    text-align: justify;
 }
 
 .dev-texto h1 {
@@ -123,6 +124,7 @@ section {
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     transition: var(--transicao);
+    margin-right: 8px;
 }
 
 .botao-de-contato:hover {
@@ -213,16 +215,13 @@ section {
 footer {
     background-color: var(--cor-de-fundo-card);
     text-align: center;
-    padding: 2rem 0;
-
-}
-
-.icones-footer {
+    padding: 4rem;
     display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-bottom: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+
 }
+
 
 @keyframes fade {
     from { opacity: 0; transform: translateY(20px); }
@@ -237,6 +236,7 @@ footer {
     border-radius: 8px;
     background-color: #f5f5f5;
     padding: 1rem;
+    text-align: justify;
     
 }
 
@@ -250,4 +250,11 @@ footer {
 .terceira-secao > div img {
   width: 300px;
   border-radius: 10px;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
