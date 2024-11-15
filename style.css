@@ -27,6 +27,7 @@ html {
 body {
     font-family: var(--fonte);
     
+    
 }
 
 /* HEADER ===============================*/
@@ -215,7 +216,7 @@ section {
 footer {
     background-color: var(--cor-de-fundo-card);
     text-align: center;
-    padding: 4rem;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -252,9 +253,16 @@ footer {
   border-radius: 10px;
 }
 
+.titulo-footer {
+    height: 8px;
+    
+}
+
 footer > div {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    height: 10px;
+    margin-bottom: 1rem;
 }
